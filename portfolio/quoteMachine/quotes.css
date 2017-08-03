@@ -1,0 +1,95 @@
+.jumbotron {
+  text-align: center;
+  background: rgba(202, 201, 202, 0.9);
+  margin-bottom: 100px;
+}
+
+body {
+	background-image: url("https://source.unsplash.com/T9CktnMI8TQ");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Taviraj', serif;
+	color: #231F20;
+}
+
+footer {
+	background-color: #231F20;
+	color: #EAEAEA;
+	margin: 0;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.author {
+	font-style: italic;
+}
+
+.navbar-custom {
+	background-color: #231F20;
+}
+
+#brand {
+	color: #EAEAEA;
+	font-size: 24px;
+}
+
+.well {
+	background-color: rgba(234, 234, 234, 0.95);
+}
+
+.btn {
+    padding: 8px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+
+.btn.raised.quote-button {
+	box-shadow: 0 3px 0 0 rgb(135, 131, 132);
+}
+
+
+.btn.quote-button.raised:active, .btn.quote-button.raised.active {
+	background: rgb(135, 131, 132);
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+.btn.quote-button {
+    background: #231F20;
+    color: #EAEAEA;
+}
+
+.btn.raised.twitter {
+	box-shadow: 0 3px 0 0 rgb(66, 152, 237);
+}
+
+.btn.twitter.raised:active, .btn.twitter.raised.active {
+	background: rgb(66, 152, 237);
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+.btn.twitter {
+    background: rgb(19, 138, 240);
+    color: #EAEAEA;
+    padding: 6px 16px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}

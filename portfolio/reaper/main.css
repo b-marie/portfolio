@@ -1,0 +1,81 @@
+/* Colors */
+
+/* Base Black - #151515 */
+/* Navbar Grey - #6A6A68 */
+/* Green - #43443B */
+/* White - #FFFFFF */
+/* Yellowish - #B7A85C */
+
+
+.nav.navbar-nav.navbar-right li a {
+    color: #FFFFFF;
+    padding-left: 0px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #6A6A68;
+    text-align: right;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    border-bottom: 2px solid #FFFFFF;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+.navbar-custom {
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #FFFFFF;
+}
+
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:,
+.navbar-custom .navbar-nav > .open >a {
+    background-color: #6A6A68;
+    border: none;
+    color:#FFFFFF;
+    text-align: right;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    background-color: #6A6A68;
+    border: none;
+    color:#FFFFFF;
+    text-align: right;
+}
+
+.navbar-custom .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.navbar-custom .navbar-toggle {
+    background-color: #6A6A68;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #6A6A68;
+    border: none;
+    color:#FFFFFF;
+    text-align: right;
+  }
+
+
+body {
+    font-family: "Fira Sans";
+}
+
+h1, h2, h3 {
+    font-family: "Julee";
+}
