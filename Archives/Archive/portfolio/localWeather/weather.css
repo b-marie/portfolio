@@ -1,0 +1,117 @@
+body {
+	background: #ccc;
+	font-family: "Josefin Sans";
+}
+
+.container {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 60px;
+	background: rgba(240, 240, 240, 0.85);
+	font-size: 18px;
+}
+
+footer {
+	background-color: rgba(180, 180, 180, 0.8);
+	color: #EAEAEA;
+	margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-custom {
+	background-color: rgba(180, 180, 180, 0.8);
+}
+
+#brand {
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+}
+
+/*.day-time {
+	background: rgb(0, 126, 220);
+}*/
+
+.day-clear {
+		margin:0;
+		padding:0;
+	    background: #2980b9 url('bluesky.png') repeat 100% 100%;
+	    background-size: cover;
+		-webkit-animation: 60s linear 0s normal none infinite animate;
+		-moz-animation: 60s linear 0s normal none infinite animate;
+		-ms-animation: 60s linear 0s normal none infinite animate;
+		-o-animation: 60s linear 0s normal none infinite animate;
+		animation: 60s linear 0s normal none infinite animate;
+}
+
+.night-clear {
+		margin:0;
+		padding:0;
+	    background: #2980b9 url('nightsky.png') repeat 100% 100%;
+	    background-size: cover;
+		-webkit-animation: 60s linear 0s normal none infinite animate;
+		-moz-animation: 60s linear 0s normal none infinite animate;
+		-ms-animation: 60s linear 0s normal none infinite animate;
+		-o-animation: 60s linear 0s normal none infinite animate;
+		animation: 60s linear 0s normal none infinite animate;
+}
+
+.grey-sky {
+		margin:0;
+		padding:0;
+	    background: #2980b9 url('cloudysky.png') repeat 100% 100%;
+		background-size: cover;
+		-webkit-animation: 60s linear 0s normal none infinite animate;
+		-moz-animation: 60s linear 0s normal none infinite animate;
+		-ms-animation: 60s linear 0s normal none infinite animate;
+		-o-animation: 60s linear 0s normal none infinite animate;
+		animation: 60s linear 0s normal none infinite animate;
+}
+
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+	 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+	 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+	 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+	 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+	
+
+
+#weather-icon {
+	font-size: 40px;
+}
+
+.extras {
+	font-size: 24px;
+}
+
+.main-temp {
+	font-size: 30px;
+}
+
+i#converter {
+	float: right;
+	font-size: 24px;
+}

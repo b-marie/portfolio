@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Weather</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="weather.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script src="weather.js"></script>
+	<nav class="navbar navbar-default navbar-custom">
+	 	<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="http://beemarie.org" id="brand" ><i class="fa fa-bug" aria-hidden="true" target="_blank"></i> beemarie</a></div>
+    	</div>
+    </nav>
+</head>
+<body>
+  <div class="container well col-sm-6 col-sm-offset-3">
+  		<a><i id="converter" class="wi wi-celsius"></i></a>
+  <div>
+  <h1 id="location">Getting location...</h1>
+    <div><i id="weather-icon"></i></div>
+    <div id="temp" class="main-temp"><h4></h4></div>
+    <br>
+    <div id="summary"><h3></h3></div>
+    <br>
+  </div>
+  <div>
+  <div class="row">
+  	<div class="col-xs-4">
+  		<i class="wi wi-thermometer"></i>
+  		<p>High</p>
+  		<div id="high" class="extras"><p></p></div>
+  	</div>
+  	<div class="col-xs-4">
+  		<i class="wi wi-thermometer-exterior"></i>
+  		<p>Low</p>
+  		<div id="low" class="extras"><p></p></div>
+  	</div>
+  	<div class="col-xs-4">
+  		<i class="wi wi-humidity"></i>
+  		<p>Humidity</p>
+  		<div id="humidity" class="extras"><p></p></div>
+  	</div>
+  </div>
+  </div>
+  </div>
+
+<footer>
+<a href="https://darksky.net/poweredby/">Powered by Dark Sky</a> | Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.freecodecamp.com/b-marie" target="_blank">Brittany Heller</a>.
+</footer>
+</body>
+</html>

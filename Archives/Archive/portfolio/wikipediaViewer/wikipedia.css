@@ -1,0 +1,87 @@
+body {
+    background-color: #F4F4F4;
+    text-align: center;
+    font-family: "Source Sans Pro", "Sans Serif";
+}
+
+.text {
+    color: #373737;
+}
+h4 {
+    font-weight: 600;
+}
+i {
+    color: #C0B283;
+}
+
+a {
+    color: #C0B283;
+}
+
+a:hover {
+    color: #DCD0C0;
+}
+
+a:active {
+    color: #DCD0C0;
+}
+
+a:visited {
+    color: #DCD0C0;
+}
+
+footer {
+	background-color: #373737;
+	color: #F4F4F4;
+	margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Josefin Sans";
+}
+.search {
+	margin-top: 15%;
+	margin-bottom: 60px;
+    -webkit-transition: margin 0.3s ease-in-out;
+    transition: margin 0.3s ease-in-out;
+}
+
+#search {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 3px;
+    border: solid 1px #C0B283;
+}
+
+/* When the input field gets focus, change its width to 100% */
+#search:focus {
+    width: 90%;
+    border: solid 1px #C0B283;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px #C0B283;
+}
+
+.navbar-custom {
+    background-color: #373737;
+    border: none;
+    border-radius: 0;
+    font-family: "Josefin Sans";
+}
+
+#brand {
+    color: #C0B283;
+    font-size: 24px;
+}
+
+.clickedClass {
+    background-color: #373737;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 40px;
+    color: #F4F4F4;
+    text-align: left;
+}
